@@ -1,0 +1,39 @@
+# Datos
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos entrenados
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Entornos y cachés
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Sistema
+.DS_Store
+
+# Figuras generadas
+reports/figures/*
+!reports/figures/.gitkeep
+
+# =============================================================================
+# TODO — MVP respetable (checklist local; no versionar)
+# =============================================================================
+# [ ] Descargar series ISTAC/INE (ver data/README.md) y harmonizar en processed/
+# [ ] Notebook 02: features + descomposición estacional por isla
+# [ ] Notebook 03: SARIMA vs LightGBM con expanding-window CV documentada
+# [ ] Notebook 04: informe RevPAR gap vs año anterior (argumento de venta ADS)
+# [ ] Streamlit con forecast por isla + capturas en README
+# [ ] git init, push a GitHub y verificar CI
+#
+# Recomendación: el cuello de botella es la harmonización de datos (no el modelo).
+# Documenta qué cubo ISTAC y qué serie INE usaste — eso demuestra rigor DE/BI más
+# que otro algoritmo. Conecta explícitamente con ADS en el README ("demanda en
+# tu isla sube/baja X%").
