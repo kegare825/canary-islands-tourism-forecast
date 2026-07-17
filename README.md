@@ -13,12 +13,15 @@ turística por isla, usando **datos abiertos oficiales** (ISTAC + INE), no un da
 Kaggle. Es la pieza de portfolio más original de las tres — nadie más la va a tener con
 exactamente esta fuente ni esta geografía.
 
+**Demo en vivo:** [canary-islands-tourism-forecast.streamlit.app](https://canary-islands-tourism-forecast.streamlit.app/)
+
 ## Estado del proyecto
 
 ✅ **Ejecutado de extremo a extremo con datos reales.** Cubo ISTAC `C00065A_000003`
 descargado y armonizado (205 meses, 2009-2026, 7 islas), backtesting completo
 (357 folds de ventana expansiva), modelos entrenados y serializados, e informe de
 negocio y app de Streamlit conectados a esos modelos reales — sin placeholders.
+Desplegada en [Streamlit Community Cloud](https://canary-islands-tourism-forecast.streamlit.app/).
 Corre entero en un venv normal, sin Docker ni Spark. Detalle de cómo se ejecutó
 y qué se encontró en `docs/ROADMAP.md`.
 
@@ -128,7 +131,7 @@ make test       # 39 tests
 make metrics    # backtesting extendido (~15 min) → data/processed/model_eval_summary.csv
 make notebooks  # pipeline completo notebooks 01-04
 make reports    # capturas demo + figuras INE + feature importance
-make app        # Streamlit local
+make app        # Streamlit local (o abrir la demo desplegada arriba)
 make docker-build && make docker-run   # app en contenedor (monta models/ y data/processed/)
 ```
 

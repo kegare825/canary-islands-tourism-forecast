@@ -58,8 +58,9 @@ del pipeline corre en un venv normal, sin Docker ni Spark.
 - [x] **Makefile + Docker** (`Makefile`, `docker/Dockerfile`) para onboarding y
       despliegue opcional de la app.
 - [x] **Post de portfolio** (`docs/portfolio_post.md`).
-- [ ] **Despliegue Streamlit** en Community Cloud/HF Spaces + enlace en README
-      (a cargo del autor).
+- [x] **Despliegue Streamlit** en Community Cloud + enlace en README:
+      [canary-islands-tourism-forecast.streamlit.app](https://canary-islands-tourism-forecast.streamlit.app/)
+      (repo público: `kegare825/canary-islands-tourism-forecast`).
 
 ## Riesgos que se confirmaron (y cómo se trataron)
 

@@ -49,6 +49,7 @@ Hallazgo de EDA que cambió el código: la temporada alta real (ago, nov, feb, m
 `src/business.py` convierte pronóstico → **brecha de RevPAR vs año anterior** + nivel de alerta (`alerta_media`, `crecimiento`…). Ejemplo: La Gomera abril −11,5 % YoY → gap ~19 € RevPAR → subir ADR ~27 % para compensar (si la ocupación cae).
 
 Demo Streamlit: isla + horizonte → tabla con **intervalo de confianza** (SARIMA) + botón de oportunidad en €.
+[Demo en vivo](https://canary-islands-tourism-forecast.streamlit.app/)
 
 ---
 
@@ -73,4 +74,5 @@ make docker-build          # contenedor solo para la app
 - Puente **ML → negocio** (RevPAR, alertas, €).
 - Producto mínimo (**Streamlit**) + tests + Docker opcional.
 
-Enlace al repo: [king-crimson](https://github.com/kegare825/king-crimson)
+Repo: [canary-islands-tourism-forecast](https://github.com/kegare825/canary-islands-tourism-forecast) ·
+Demo: [canary-islands-tourism-forecast.streamlit.app](https://canary-islands-tourism-forecast.streamlit.app/)

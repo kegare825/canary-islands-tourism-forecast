@@ -28,4 +28,4 @@ reports/figures/demo/_tmp_*
 # [x] Streamlit con forecast real por isla
 # [x] Capturas demo + figuras versionadas en reports/figures/
 # [x] Makefile, Docker app, post portfolio, MAPE ex-COVID, contraste INE
-# [ ] Despliegue Streamlit Community Cloud/HF Spaces (enlace en README)
+# [x] Despliegue Streamlit Community Cloud (enlace en README)
