@@ -1,13 +1,8 @@
-# Datos
+# Datos crudos (cubo ISTAC ~67 MB — descargar localmente; ver data/README.md)
 data/raw/*
-data/processed/*
 !data/raw/.gitkeep
-!data/processed/.gitkeep
 
-# Modelos entrenados
-models/*.pkl
-models/*.joblib
-!models/.gitkeep
+# Modelos y series procesadas versionados para demo/deploy (Streamlit Community Cloud)
 
 # Entornos y cachés
 .venv/

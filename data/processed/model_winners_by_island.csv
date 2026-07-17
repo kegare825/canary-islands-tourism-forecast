@@ -1,0 +1,8 @@
+isla,model,mape
+El Hierro,sarima,0.20800772829208447
+Fuerteventura,sarima,0.13515143608048866
+Gran Canaria,sarima,0.13253636833047347
+La Gomera,lightgbm,0.17192295085268683
+La Palma,lightgbm,0.2663346688580463
+Lanzarote,sarima,0.13697029163864935
+Tenerife,sarima,0.11983717966302505
