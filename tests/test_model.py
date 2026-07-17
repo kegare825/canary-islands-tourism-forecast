@@ -9,7 +9,10 @@ from src.model import (
     expanding_window_splits,
     fit_lightgbm,
     forecast_recursive_lightgbm,
+    interval_coverage,
+    is_covid_period,
     seasonal_naive_forecast,
+    summarize_backtest,
 )
 
 
@@ -57,6 +60,33 @@ def test_evaluate_forecast_computes_known_mae():
     y_pred = np.array([12.0, 18.0])
     result = evaluate_forecast(y_true, y_pred, "x")
     assert result.mae == pytest.approx(2.0)
+
+
+def test_interval_coverage_perfect():
+    y = np.array([1.0, 2.0, 3.0])
+    assert interval_coverage(y, y - 0.1, y + 0.1) == pytest.approx(1.0)
+
+
+def test_is_covid_period_marks_2020_04():
+    dates = pd.date_range("2020-04-01", periods=1, freq="MS")
+    assert is_covid_period(dates)[0]
+
+
+def test_summarize_backtest_excludes_covid_folds():
+    results = pd.DataFrame(
+        {
+            "model": ["sarima", "sarima", "sarima"],
+            "mae": [1.0, 2.0, 3.0],
+            "rmse": [1.0, 2.0, 3.0],
+            "mape": [0.10, 0.50, 0.20],
+            "covid_fold": [False, True, False],
+            "interval_coverage": [0.9, 0.8, 1.0],
+        }
+    )
+    summary = summarize_backtest(results)
+    assert summary.loc["sarima", "mape"] == pytest.approx((0.10 + 0.50 + 0.20) / 3)
+    assert summary.loc["sarima", "mape_ex_covid"] == pytest.approx(0.15, rel=1e-3)
+    assert summary.loc["sarima", "interval_coverage"] == pytest.approx(0.9, rel=1e-3)
 
 
 def _synthetic_history(n_months: int = 30) -> pd.DataFrame:

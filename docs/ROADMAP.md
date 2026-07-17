@@ -46,17 +46,28 @@ del pipeline corre en un venv normal, sin Docker ni Spark.
       lo que este bug llevaba desde la primera versión sin detectarse.
       Verificado con `streamlit.testing.v1.AppTest` + navegador real (SARIMA y
       LightGBM, cambio de isla, botón de cálculo).
-- [ ] **Cuando llegue el portátil**: capturas de pantalla definitivas, desplegar
-      en Streamlit Community Cloud/HF Spaces, enlazar desde el README.
+- [x] **Capturas de demo** en `reports/figures/demo/` (composite, sidebar,
+      pronóstico con IC 95 %, alerta RevPAR, GIF por isla) — referenciadas en README.
+- [x] **MAPE ex-COVID + cobertura IC SARIMA** en backtesting (`src/model.py`,
+      `scripts/compute_backtest_summary.py`): MAPE global 18,3 % → ex-COVID 13,2 %;
+      cobertura intervalo 95 % ~85 %.
+- [x] **Contraste INE** (`notebooks/05_ine_contrast.ipynb`, `src/ine.py`): tabla
+      EOH 67190, figura `05_ine_contrast_canarias.png`.
+- [x] **Feature importance LightGBM** para La Gomera/La Palma
+      (`reports/figures/06_lightgbm_feature_importance.png`).
+- [x] **Makefile + Docker** (`Makefile`, `docker/Dockerfile`) para onboarding y
+      despliegue opcional de la app.
+- [x] **Post de portfolio** (`docs/portfolio_post.md`).
+- [ ] **Despliegue Streamlit** en Community Cloud/HF Spaces + enlace en README
+      (a cargo del autor).
 
 ## Riesgos que se confirmaron (y cómo se trataron)
 
 - **Ruptura COVID dentro del backtest**: se dejó a propósito dentro de los 357
   folds en vez de excluirla — es honesto (así se comportaría el modelo en
   producción si viene otra ruptura), pero infla el MAPE global reportado más
-  arriba. Vale la pena, en una iteración futura, reportar también el MAPE
-  excluyendo 2020-2021 para separar "error estructural del modelo" de "error
-  por evento extraordinario no modelable".
+  arriba. **Resuelto:** se reporta también MAPE ex-COVID (mar–jun 2020–2021
+  excluidos por fold) en README y `data/processed/model_eval_summary.csv`.
 - **LightGBM recursivo**: al pronosticar >1 mes, LightGBM no se extrapola solo
   como SARIMA — hay que recalcular sus features (rezagos/medias) con sus propias
   predicciones anteriores (`src/model.forecast_recursive_lightgbm`). El error se

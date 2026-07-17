@@ -17,6 +17,7 @@ NOTEBOOKS = [
     ROOT / "notebooks/02_decomposition_features.ipynb",
     ROOT / "notebooks/03_modeling.ipynb",
     ROOT / "notebooks/04_business_report.ipynb",
+    ROOT / "notebooks/05_ine_contrast.ipynb",
 ]
 OUTPUT_MD = ROOT / "docs/ejecucion_resultados.md"
 

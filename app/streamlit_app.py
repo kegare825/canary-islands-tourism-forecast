@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.business import demand_alert_level, revpar_gap_vs_last_year
 from src.data import ISLANDS, load_harmonized_series
-from src.model import forecast_recursive_lightgbm
+from src.model import forecast_recursive_lightgbm, forecast_sarima_with_intervals
 
 st.set_page_config(page_title="King Crimson", page_icon="⏳")
 
@@ -76,12 +76,15 @@ info = registry[isla]
 historial_isla = df[df["isla"] == isla].sort_values("fecha").reset_index(drop=True)
 modelo = cargar_modelo(info["path"])
 
+interval_lower = interval_upper = None
 if info["model_type"] == "sarima":
-    pred = modelo.forecast(steps=horizonte)
+    pred, conf = forecast_sarima_with_intervals(modelo, horizonte)
     fechas_pronostico = pd.date_range(
         historial_isla["fecha"].max() + pd.DateOffset(months=1), periods=horizonte, freq="MS"
     )
     forecast_revpar = pd.Series(pred.values, index=fechas_pronostico)
+    interval_lower = pd.Series(conf.iloc[:, 0].values, index=fechas_pronostico)
+    interval_upper = pd.Series(conf.iloc[:, 1].values, index=fechas_pronostico)
 else:
     forecast_revpar = forecast_recursive_lightgbm(modelo, historial_isla, "revpar_eur", horizonte)
 
@@ -119,15 +122,28 @@ with st.sidebar:
     ) / 100
 
 st.subheader(f"Pronóstico de RevPAR — {isla}")
-tabla_pronostico = pd.DataFrame(
-    {
-        "fecha": forecast_revpar.index.date,
-        "revpar_pronosticado_eur": forecast_revpar.values.round(1),
-        "ocupacion_implícita_%": (forecast_revpar.values / adr_actual * 100).round(1) if adr_actual > 0 else None,
-    }
-)
+tabla_cols = {
+    "fecha": forecast_revpar.index.date,
+    "revpar_pronosticado_eur": forecast_revpar.values.round(1),
+    "ocupacion_implícita_%": (forecast_revpar.values / adr_actual * 100).round(1) if adr_actual > 0 else None,
+}
+if interval_lower is not None and interval_upper is not None:
+    tabla_cols["ic95_inferior_eur"] = interval_lower.values.round(1)
+    tabla_cols["ic95_superior_eur"] = interval_upper.values.round(1)
+tabla_pronostico = pd.DataFrame(tabla_cols)
 st.dataframe(tabla_pronostico, hide_index=True, width="stretch")
-st.line_chart(historial_isla.set_index("fecha")["revpar_eur"].tail(36))
+
+chart_df = historial_isla.set_index("fecha")[["revpar_eur"]].tail(36).rename(columns={"revpar_eur": "Histórico"})
+chart_df = pd.concat(
+    [
+        chart_df,
+        forecast_revpar.rename("Pronóstico").to_frame(),
+    ]
+)
+if interval_lower is not None and interval_upper is not None:
+    chart_df["IC 95 % inferior"] = interval_lower
+    chart_df["IC 95 % superior"] = interval_upper
+st.line_chart(chart_df)
 
 if not hay_dato_ano_pasado:
     st.info(
