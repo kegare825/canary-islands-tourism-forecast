@@ -8,11 +8,13 @@ mezclar rezagos entre islas distintas.
 import numpy as np
 import pandas as pd
 
-# Meses de temporada alta en Canarias por afluencia de turismo de invierno
-# (evasión de frío en Europa) + puente de Semana Santa/verano — a diferencia
-# de la España peninsular, Canarias tiene una estacionalidad más suave
-# repartida en dos picos (invierno + verano), no solo verano.
-HIGH_SEASON_MONTHS = {1, 2, 3, 7, 8, 12}
+# Meses de temporada alta verificados con ocupación real derivada de ISTAC
+# 2009-2026 (ver notebooks/01_eda.ipynb): los 6 meses con mayor ocupación
+# media son agosto, noviembre, febrero, marzo, septiembre y enero — no
+# coincide del todo con la intuición inicial de "invierno + verano clásico"
+# (julio y diciembre resultan ser temporada media, no alta, en el dato real;
+# noviembre sí es un pico real que la intuición inicial no capturaba).
+HIGH_SEASON_MONTHS = {1, 2, 3, 8, 9, 11}
 
 
 def add_calendar_features(df: pd.DataFrame, date_col: str = "fecha") -> pd.DataFrame:
@@ -63,10 +65,28 @@ def build_features_for_island(df_island: pd.DataFrame, target_col: str) -> pd.Da
     return df_island
 
 
+def feature_columns(target_col: str) -> list[str]:
+    """Columnas de entrada para un modelo tabular (LightGBM), en el mismo orden
+    en que las genera `build_features_for_island` — única fuente de verdad para
+    no duplicar la lista de columnas entre notebooks, `models.py` y la app.
+    """
+    return [
+        "month", "quarter", "is_high_season",
+        f"{target_col}_lag_1", f"{target_col}_lag_3", f"{target_col}_lag_12",
+        f"{target_col}_rolling_mean_3", f"{target_col}_rolling_mean_12",
+    ]
+
+
 def build_features(df: pd.DataFrame, target_col: str) -> pd.DataFrame:
-    """Aplica el pipeline isla por isla, para no mezclar rezagos entre series distintas."""
-    return (
-        df.groupby("isla", group_keys=False)
-        .apply(lambda g: build_features_for_island(g, target_col))
-        .reset_index(drop=True)
+    """Aplica el pipeline isla por isla, para no mezclar rezagos entre series distintas.
+
+    Se evita `groupby(...).apply(...)` a propósito: desde pandas 2.2 (y ya por
+    defecto en pandas 3.0) la columna de agrupación se excluye del grupo que
+    recibe la función salvo que se pase `include_groups=True`, lo que hacía
+    desaparecer silenciosamente la columna `isla` del resultado final. Un
+    `groupby` + `concat` explícito no depende de ese comportamiento.
+    """
+    return pd.concat(
+        [build_features_for_island(grupo, target_col) for _, grupo in df.groupby("isla", sort=False)],
+        ignore_index=True,
     )

@@ -1,6 +1,6 @@
 """Traduce el pronóstico de demanda a oportunidad de negocio en RevPAR.
 
-Mismo concepto que ya usa ADS/ADMI: RevPAR = ADR × Ocupación. Aquí se usa
+Mismo concepto que ya usa ADS/NDMI: RevPAR = ADR × Ocupación. Aquí se usa
 para responder "si sabemos con 3 meses de antelación que la ocupación va a
 caer respecto al mismo mes del año pasado, ¿cuánto RevPAR se puede recuperar
 moviendo el ADR?" — funciones puras, testeables sin datos ni modelo.
@@ -18,7 +18,7 @@ class RevPAROpportunity:
 
 
 def revpar(adr_eur: float, occupancy_rate: float) -> float:
-    """RevPAR = ADR × Ocupación. Misma fórmula que en app/services/valuation.py de ADS."""
+    """RevPAR = ADR × Ocupación. Misma fórmula que en NDMI/backend/app/services/valuation.py."""
     if adr_eur < 0:
         raise ValueError("adr_eur debe ser no negativo")
     if not 0 <= occupancy_rate <= 1:

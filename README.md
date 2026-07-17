@@ -15,9 +15,12 @@ exactamente esta fuente ni esta geografía.
 
 ## Estado del proyecto
 
-🚧 **En preparación.** Estructura y código base listos; pendiente descargar los datos
-reales y ejecutar el pipeline en cuanto haya cómputo disponible (ver `docs/ROADMAP.md`).
-Corre entero en Google Colab / Kaggle Notebooks — sin Docker ni Spark.
+✅ **Ejecutado de extremo a extremo con datos reales.** Cubo ISTAC `C00065A_000003`
+descargado y armonizado (205 meses, 2009-2026, 7 islas), backtesting completo
+(357 folds de ventana expansiva), modelos entrenados y serializados, e informe de
+negocio y app de Streamlit conectados a esos modelos reales — sin placeholders.
+Corre entero en un venv normal, sin Docker ni Spark. Detalle de cómo se ejecutó
+y qué se encontró en `docs/ROADMAP.md`.
 
 ## Objetivo
 
@@ -26,7 +29,7 @@ Corre entero en Google Colab / Kaggle Notebooks — sin Docker ni Spark.
    de gradient boosting con features de calendario y rezagos.
 3. Traducir el pronóstico a **oportunidad de RevPAR** — si se sabe con antelación que
    viene un mes flojo de demanda, hay margen de reacción en pricing (mismo concepto de
-   ADR × Ocupación que ya se usa en ADS/ADMI).
+   ADR × Ocupación que ya se usa en ADS/NDMI).
 4. Demo interactiva: elegir isla y horizonte, ver el pronóstico con intervalo de confianza.
 
 ## Fuentes de datos (reales, verificadas — ver `data/README.md` para el detalle completo)
@@ -58,11 +61,11 @@ king-crimson/
 │   └── business.py             Pronóstico → oportunidad de RevPAR
 ├── app/
 │   └── streamlit_app.py       Demo: isla + horizonte → pronóstico con intervalo
-├── models/                    Modelos entrenados — gitignored
+├── models/                    Modelos entrenados (uno por isla) + registry.json — gitignored
 ├── reports/figures/            Gráficos para el README/portfolio
-├── tests/                      Tests de business.py — no necesitan datos ni modelo
+├── tests/                      35 tests (business/data/features/model) — no necesitan datos reales
 └── docs/
-    └── ROADMAP.md              Plan de preparación
+    └── ROADMAP.md              Plan de preparación + resultados reales de la ejecución
 ```
 
 ## Stack
@@ -70,13 +73,46 @@ king-crimson/
 Python · pandas · statsmodels (SARIMA) · LightGBM · scikit-learn · matplotlib/seaborn ·
 Streamlit · pytest. Sin infraestructura pesada.
 
-## Cómo correrlo (cuando haya datos descargados y armonizados)
+## Resultados reales (backtesting, 357 folds de ventana expansiva, horizonte 3 meses)
+
+| Modelo | MAE (€) | RMSE (€) | MAPE |
+|---|---|---|---|
+| Naive estacional (baseline obligatorio) | 12.6 | 13.7 | 29.8% |
+| SARIMA(1,1,1)(1,1,1,12) | 8.1 | 9.0 | **18.3%** |
+| LightGBM (calendario + rezagos + medias móviles) | 8.3 | 9.4 | 18.0% |
+
+Ambos modelos le ganan claramente al naive (regla de oro del proyecto: si no le
+ganan, no aportan nada). SARIMA gana en 5 de 7 islas grandes/medianas; LightGBM
+gana en las 2 islas más pequeñas y volátiles (La Gomera, La Palma) — ver
+`reports/figures/03_comparacion_modelos_por_isla.png`. El MAPE incluye a
+propósito la ruptura de COVID (2020-2021) dentro del propio backtest, lo que
+infla el error de todos los modelos por igual; en periodos normales es menor.
+
+Hallazgo de EDA que sí cambió el código: los meses de temporada alta reales
+(agosto, noviembre, febrero, marzo, septiembre, enero) no coinciden del todo con
+la intuición inicial de `HIGH_SEASON_MONTHS` (asumía julio y diciembre en vez de
+septiembre y noviembre) — corregido en `src/features.py` con el dato real.
+
+![RevPAR y ocupación derivada por isla](reports/figures/01_revpar_ocupacion_por_isla.png)
+
+## Cómo correrlo
 
 ```bash
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-# 1. Descargar y armonizar los datos (ver data/README.md) en data/processed/
-# 2. Ejecutar notebooks/ en orden, o:
-python -m src.model
+
+# 1. Descargar el cubo ISTAC (ver data/README.md) a data/raw/, o usar el ya
+#    descargado. Luego correr los notebooks EN ORDEN (cada uno depende del
+#    CSV/modelo que genera el anterior):
+jupyter nbconvert --to notebook --execute --inplace notebooks/01_eda.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks/02_decomposition_features.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks/03_modeling.ipynb   # ~15 min: 357 folds de backtesting + entrenamiento final
+jupyter nbconvert --to notebook --execute --inplace notebooks/04_business_report.ipynb
+
+# 2. Tests (no dependen de los notebooks anteriores, corren siempre)
+pytest tests/ -v
+
+# 3. App — necesita que 03_modeling.ipynb ya haya generado models/registry.json
 streamlit run app/streamlit_app.py
 ```
 

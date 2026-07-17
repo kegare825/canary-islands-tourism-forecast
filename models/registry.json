@@ -1,0 +1,30 @@
+{
+  "El Hierro": {
+    "model_type": "sarima",
+    "path": "models/el_hierro_sarima.pkl"
+  },
+  "Fuerteventura": {
+    "model_type": "sarima",
+    "path": "models/fuerteventura_sarima.pkl"
+  },
+  "Gran Canaria": {
+    "model_type": "sarima",
+    "path": "models/gran_canaria_sarima.pkl"
+  },
+  "La Gomera": {
+    "model_type": "lightgbm",
+    "path": "models/la_gomera_lightgbm.pkl"
+  },
+  "La Palma": {
+    "model_type": "lightgbm",
+    "path": "models/la_palma_lightgbm.pkl"
+  },
+  "Lanzarote": {
+    "model_type": "sarima",
+    "path": "models/lanzarote_sarima.pkl"
+  },
+  "Tenerife": {
+    "model_type": "sarima",
+    "path": "models/tenerife_sarima.pkl"
+  }
+}

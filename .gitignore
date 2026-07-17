@@ -24,16 +24,12 @@ reports/figures/*
 !reports/figures/.gitkeep
 
 # =============================================================================
-# TODO — MVP respetable (checklist local; no versionar)
+# MVP respetable — estado (ver docs/ROADMAP.md para el detalle completo)
 # =============================================================================
-# [ ] Descargar series ISTAC/INE (ver data/README.md) y harmonizar en processed/
-# [ ] Notebook 02: features + descomposición estacional por isla
-# [ ] Notebook 03: SARIMA vs LightGBM con expanding-window CV documentada
-# [ ] Notebook 04: informe RevPAR gap vs año anterior (argumento de venta ADS)
-# [ ] Streamlit con forecast por isla + capturas en README
-# [ ] git init, push a GitHub y verificar CI
-#
-# Recomendación: el cuello de botella es la harmonización de datos (no el modelo).
-# Documenta qué cubo ISTAC y qué serie INE usaste — eso demuestra rigor DE/BI más
-# que otro algoritmo. Conecta explícitamente con ADS en el README ("demanda en
-# tu isla sube/baja X%").
+# [x] Descargar series ISTAC y harmonizar en processed/
+# [x] Notebook 02: features + descomposición estacional por isla
+# [x] Notebook 03: SARIMA vs LightGBM con expanding-window CV documentada
+# [x] Notebook 04: informe RevPAR gap vs año anterior (argumento de venta ADS)
+# [x] Streamlit con forecast real por isla
+# [ ] git init, push a GitHub y verificar CI en remoto
+# [ ] Capturas de pantalla definitivas + despliegue en Streamlit Community Cloud/HF Spaces
