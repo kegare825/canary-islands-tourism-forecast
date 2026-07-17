@@ -35,6 +35,23 @@ serie complementaria/de validación reciente, no como serie principal de entrena
 **Decisión recomendada para el proyecto**: usar `C00065A_000003` (mensual, 2009+) como
 serie principal — es la más larga en frecuencia mensual y la que mejor conecta con RevPAR.
 
+### FRONTUR-Canarias — turistas principales (variable exógena proxy)
+
+Operación ISTAC `E16028B`. Turistas **principales** por isla (encuesta de fronteras, no
+pasajeros AENA). Usado en ablation LightGBM — ver `docs/frontur_ablation.md`.
+
+| Cubo | Alcance |
+|---|---|
+| `E16028B_000016` | 5 islas (Tenerife, GC, Lanzarote, FV, La Palma), mensual 2010+ |
+| `E16028B_000019` | La Gomera, mensual 2017+ |
+
+```
+https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/E16028B_000016/1.64.csv
+```
+
+Descarga/armonización: `src/frontur.py` → `data/processed/frontur_turistas_mensual.csv`.
+**El Hierro** no tiene publicación FRONTUR en estos cubos.
+
 ## 2. INE — fuente complementaria (contraste nacional)
 
 **Encuesta de Ocupación Hotelera (EOH)**: serie mensual nacional desde finales de los 90,

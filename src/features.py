@@ -16,6 +16,12 @@ import pandas as pd
 # noviembre sí es un pico real que la intuición inicial no capturaba).
 HIGH_SEASON_MONTHS = {1, 2, 3, 8, 9, 11}
 
+EXOG_COL_DEFAULT = "turistas"
+TARGET_LAGS = (1, 3, 12)
+TARGET_ROLLING = (3, 12)
+EXOG_LAGS = (1, 3, 12)
+EXOG_ROLLING = (3, 12)
+
 
 def add_calendar_features(df: pd.DataFrame, date_col: str = "fecha") -> pd.DataFrame:
     df = df.copy()
@@ -55,21 +61,7 @@ def add_yoy_growth(df: pd.DataFrame, target_col: str) -> pd.DataFrame:
     return df
 
 
-def build_features_for_island(df_island: pd.DataFrame, target_col: str) -> pd.DataFrame:
-    """Pipeline completo para una isla — llamar dentro de un groupby("isla").apply(...)."""
-    df_island = df_island.sort_values("fecha")
-    df_island = add_calendar_features(df_island)
-    df_island = add_lag_features(df_island, target_col)
-    df_island = add_rolling_features(df_island, target_col)
-    df_island = add_yoy_growth(df_island, target_col)
-    return df_island
-
-
-def feature_columns(target_col: str) -> list[str]:
-    """Columnas de entrada para un modelo tabular (LightGBM), en el mismo orden
-    en que las genera `build_features_for_island` — única fuente de verdad para
-    no duplicar la lista de columnas entre notebooks, `models.py` y la app.
-    """
+def _base_feature_names(target_col: str) -> list[str]:
     return [
         "month", "quarter", "is_high_season",
         f"{target_col}_lag_1", f"{target_col}_lag_3", f"{target_col}_lag_12",
@@ -77,7 +69,48 @@ def feature_columns(target_col: str) -> list[str]:
     ]
 
 
-def build_features(df: pd.DataFrame, target_col: str) -> pd.DataFrame:
+def exog_feature_names(exog_col: str = EXOG_COL_DEFAULT) -> list[str]:
+    """Features de la variable exógena proxy (FRONTUR turistas): lags + rolling."""
+    return [
+        f"{exog_col}_lag_1", f"{exog_col}_lag_3", f"{exog_col}_lag_12",
+        f"{exog_col}_rolling_mean_3", f"{exog_col}_rolling_mean_12",
+    ]
+
+
+def feature_columns(target_col: str, exog_col: str | None = None) -> list[str]:
+    """Columnas de entrada para LightGBM — única fuente de verdad.
+
+    Si `exog_col` está definido (p. ej. ``turistas``), añade rezagos y medias
+    móviles de esa serie exógena proxy (FRONTUR).
+    """
+    cols = _base_feature_names(target_col)
+    if exog_col:
+        cols.extend(exog_feature_names(exog_col))
+    return cols
+
+
+def build_features_for_island(
+    df_island: pd.DataFrame,
+    target_col: str,
+    exog_col: str | None = None,
+) -> pd.DataFrame:
+    """Pipeline completo para una isla — llamar dentro de un groupby("isla").apply(...)."""
+    df_island = df_island.sort_values("fecha")
+    df_island = add_calendar_features(df_island)
+    df_island = add_lag_features(df_island, target_col, lags=TARGET_LAGS)
+    df_island = add_rolling_features(df_island, target_col, windows=TARGET_ROLLING)
+    df_island = add_yoy_growth(df_island, target_col)
+    if exog_col and exog_col in df_island.columns:
+        df_island = add_lag_features(df_island, exog_col, lags=EXOG_LAGS)
+        df_island = add_rolling_features(df_island, exog_col, windows=EXOG_ROLLING)
+    return df_island
+
+
+def build_features(
+    df: pd.DataFrame,
+    target_col: str,
+    exog_col: str | None = None,
+) -> pd.DataFrame:
     """Aplica el pipeline isla por isla, para no mezclar rezagos entre series distintas.
 
     Se evita `groupby(...).apply(...)` a propósito: desde pandas 2.2 (y ya por
@@ -87,6 +120,17 @@ def build_features(df: pd.DataFrame, target_col: str) -> pd.DataFrame:
     `groupby` + `concat` explícito no depende de ese comportamiento.
     """
     return pd.concat(
-        [build_features_for_island(grupo, target_col) for _, grupo in df.groupby("isla", sort=False)],
+        [
+            build_features_for_island(grupo, target_col, exog_col=exog_col)
+            for _, grupo in df.groupby("isla", sort=False)
+        ],
         ignore_index=True,
     )
+
+
+def warmup_columns(target_col: str, exog_col: str | None = None) -> list[str]:
+    """Columnas cuyo NaN inicial delimita el warm-up (lags + rolling)."""
+    cols = [c for c in _base_feature_names(target_col) if "lag_" in c or "rolling_" in c]
+    if exog_col:
+        cols.extend(exog_feature_names(exog_col))
+    return cols

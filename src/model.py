@@ -104,8 +104,17 @@ def run_expanding_window_backtest(
     feature_cols: list[str],
     horizon: int = 3,
     min_train_size: int = 36,
+    lightgbm_variants: dict[str, list[str]] | None = None,
 ) -> pd.DataFrame:
-    """Backtesting completo naive / SARIMA / LightGBM con ventana expansiva."""
+    """Backtesting completo naive / SARIMA / LightGBM con ventana expansiva.
+
+    `lightgbm_variants` permite comparar ablations, p. ej.
+    ``{"lightgbm": cols_base, "lightgbm_exog": cols_base + exog}``.
+    Si es None, se usa un único modelo ``lightgbm`` con `feature_cols`.
+    """
+    if lightgbm_variants is None:
+        lightgbm_variants = {"lightgbm": feature_cols}
+
     rows = []
 
     for isla, grupo in df_features.groupby("isla", sort=False):
@@ -139,12 +148,13 @@ def run_expanding_window_backtest(
                 {**base, "model": r.model_name, "mae": r.mae, "rmse": r.rmse, "mape": r.mape, "interval_coverage": coverage}
             )
 
-            X_train = grupo.loc[: train_end - 1, feature_cols]
-            y_train = grupo.loc[: train_end - 1, target_col]
-            X_test = grupo.loc[train_end : test_end - 1, feature_cols]
-            lgbm_pred = fit_lightgbm(X_train, y_train).predict(X_test)
-            r = evaluate_forecast(test_s.values, lgbm_pred, "lightgbm")
-            rows.append({**base, "model": r.model_name, "mae": r.mae, "rmse": r.rmse, "mape": r.mape, "interval_coverage": None})
+            for model_name, cols in lightgbm_variants.items():
+                X_train = grupo.loc[: train_end - 1, cols]
+                y_train = grupo.loc[: train_end - 1, target_col]
+                X_test = grupo.loc[train_end : test_end - 1, cols]
+                lgbm_pred = fit_lightgbm(X_train, y_train).predict(X_test)
+                r = evaluate_forecast(test_s.values, lgbm_pred, model_name)
+                rows.append({**base, "model": r.model_name, "mae": r.mae, "rmse": r.rmse, "mape": r.mape, "interval_coverage": None})
 
     return pd.DataFrame(rows)
 

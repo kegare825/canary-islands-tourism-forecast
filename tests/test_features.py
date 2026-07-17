@@ -99,3 +99,15 @@ def test_feature_columns_matches_generated_columns():
     cols = feature_columns("valor")
     for col in cols:
         assert col in generated.columns, f"{col} no está entre las columnas generadas"
+
+
+def test_exog_features_generated_when_column_present():
+    df = _series(15)
+    df["turistas"] = df["valor"] * 10
+    generated = build_features_for_island(df, target_col="valor", exog_col="turistas")
+    for col in feature_columns("valor", exog_col="turistas"):
+        assert col in generated.columns
+    assert "turistas_lag_12" in generated.columns
+    assert generated["turistas_rolling_mean_3"].iloc[3] == pytest.approx(
+        df["turistas"].iloc[0:3].mean()
+    )

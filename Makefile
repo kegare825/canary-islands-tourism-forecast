@@ -1,11 +1,11 @@
-.PHONY: help install test notebooks app demo-screens reports metrics docker-build docker-run clean
+.PHONY: help install test notebooks app demo-screens reports metrics frontur-ablation docker-build docker-run clean
 
 VENV ?= .venv
 PYTHON := $(VENV)/bin/python
 PIP := $(VENV)/bin/pip
 
 help:
-	@echo "Targets: install test notebooks app demo-screens reports metrics docker-build docker-run"
+	@echo "Targets: install test notebooks app demo-screens reports metrics frontur-ablation docker-build docker-run"
 
 install:
 	python3 -m venv $(VENV)
@@ -29,6 +29,9 @@ reports: demo-screens
 
 metrics:
 	$(PYTHON) scripts/compute_backtest_summary.py
+
+frontur-ablation:
+	$(PYTHON) scripts/frontur_ablation.py
 
 docker-build:
 	docker build -t king-crimson-app -f docker/Dockerfile .
