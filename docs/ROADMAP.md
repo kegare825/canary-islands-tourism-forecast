@@ -61,6 +61,8 @@ del pipeline corre en un venv normal, sin Docker ni Spark.
 - [x] **Despliegue Streamlit** en Community Cloud + enlace en README:
       [canary-islands-tourism-forecast.streamlit.app](https://canary-islands-tourism-forecast.streamlit.app/)
       (repo público: `kegare825/canary-islands-tourism-forecast`).
+- [x] **Ablation FRONTUR** (`src/frontur.py`, `scripts/frontur_ablation.py`):
+      LightGBM + turistas proxy (lags/rolling) vs baseline — ver `docs/frontur_ablation.md`.
 
 ## Riesgos que se confirmaron (y cómo se trataron)
 

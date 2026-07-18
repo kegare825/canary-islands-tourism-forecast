@@ -17,10 +17,8 @@ import pandas as pd
 HIGH_SEASON_MONTHS = {1, 2, 3, 8, 9, 11}
 
 EXOG_COL_DEFAULT = "turistas"
-TARGET_LAGS = (1, 3, 12)
-TARGET_ROLLING = (3, 12)
-EXOG_LAGS = (1, 3, 12)
-EXOG_ROLLING = (3, 12)
+LAGS = (1, 3, 6, 12)
+ROLLING_WINDOWS = (3, 12)
 
 
 def add_calendar_features(df: pd.DataFrame, date_col: str = "fecha") -> pd.DataFrame:
@@ -31,7 +29,7 @@ def add_calendar_features(df: pd.DataFrame, date_col: str = "fecha") -> pd.DataF
     return df
 
 
-def add_lag_features(df: pd.DataFrame, target_col: str, lags: tuple[int, ...] = (1, 3, 12)) -> pd.DataFrame:
+def add_lag_features(df: pd.DataFrame, target_col: str, lags: tuple[int, ...] = LAGS) -> pd.DataFrame:
     """Rezagos del target — asume df ya ordenado por fecha dentro de una sola isla.
 
     lag_12 es el más importante en turismo: compara contra el mismo mes del
@@ -44,13 +42,32 @@ def add_lag_features(df: pd.DataFrame, target_col: str, lags: tuple[int, ...] = 
     return df
 
 
-def add_rolling_features(df: pd.DataFrame, target_col: str, windows: tuple[int, ...] = (3, 12)) -> pd.DataFrame:
-    """Medias móviles — usa shift(1) antes del rolling para no incluir el propio mes (fuga de futuro)."""
+def add_rolling_mean_features(
+    df: pd.DataFrame, target_col: str, windows: tuple[int, ...] = ROLLING_WINDOWS
+) -> pd.DataFrame:
+    """Medias móviles — shift(1) antes del rolling para no incluir el propio mes."""
     df = df.copy()
     shifted = df[target_col].shift(1)
     for window in windows:
         df[f"{target_col}_rolling_mean_{window}"] = shifted.rolling(window).mean()
     return df
+
+
+def add_rolling_std_features(
+    df: pd.DataFrame, target_col: str, windows: tuple[int, ...] = ROLLING_WINDOWS
+) -> pd.DataFrame:
+    """Desviación móvil — shift(1) antes del rolling (misma regla anti-fuga que la media)."""
+    df = df.copy()
+    shifted = df[target_col].shift(1)
+    for window in windows:
+        df[f"{target_col}_rolling_std_{window}"] = shifted.rolling(window).std()
+    return df
+
+
+def add_rolling_features(df: pd.DataFrame, target_col: str, windows: tuple[int, ...] = ROLLING_WINDOWS) -> pd.DataFrame:
+    """Medias y desviaciones móviles (compatibilidad con llamadas existentes)."""
+    df = add_rolling_mean_features(df, target_col, windows)
+    return add_rolling_std_features(df, target_col, windows)
 
 
 def add_yoy_growth(df: pd.DataFrame, target_col: str) -> pd.DataFrame:
@@ -61,27 +78,30 @@ def add_yoy_growth(df: pd.DataFrame, target_col: str) -> pd.DataFrame:
     return df
 
 
+def _lag_rolling_feature_names(col: str) -> list[str]:
+    names = [f"{col}_lag_{lag}" for lag in LAGS]
+    names.extend(f"{col}_rolling_mean_{w}" for w in ROLLING_WINDOWS)
+    names.extend(f"{col}_rolling_std_{w}" for w in ROLLING_WINDOWS)
+    return names
+
+
 def _base_feature_names(target_col: str) -> list[str]:
     return [
         "month", "quarter", "is_high_season",
-        f"{target_col}_lag_1", f"{target_col}_lag_3", f"{target_col}_lag_12",
-        f"{target_col}_rolling_mean_3", f"{target_col}_rolling_mean_12",
+        *_lag_rolling_feature_names(target_col),
     ]
 
 
 def exog_feature_names(exog_col: str = EXOG_COL_DEFAULT) -> list[str]:
     """Features de la variable exógena proxy (FRONTUR turistas): lags + rolling."""
-    return [
-        f"{exog_col}_lag_1", f"{exog_col}_lag_3", f"{exog_col}_lag_12",
-        f"{exog_col}_rolling_mean_3", f"{exog_col}_rolling_mean_12",
-    ]
+    return _lag_rolling_feature_names(exog_col)
 
 
 def feature_columns(target_col: str, exog_col: str | None = None) -> list[str]:
     """Columnas de entrada para LightGBM — única fuente de verdad.
 
-    Si `exog_col` está definido (p. ej. ``turistas``), añade rezagos y medias
-    móviles de esa serie exógena proxy (FRONTUR).
+    Si `exog_col` está definido (p. ej. ``turistas``), añade rezagos y rolling
+    (mean + std) de esa serie exógena proxy (FRONTUR).
     """
     cols = _base_feature_names(target_col)
     if exog_col:
@@ -97,12 +117,12 @@ def build_features_for_island(
     """Pipeline completo para una isla — llamar dentro de un groupby("isla").apply(...)."""
     df_island = df_island.sort_values("fecha")
     df_island = add_calendar_features(df_island)
-    df_island = add_lag_features(df_island, target_col, lags=TARGET_LAGS)
-    df_island = add_rolling_features(df_island, target_col, windows=TARGET_ROLLING)
+    df_island = add_lag_features(df_island, target_col, lags=LAGS)
+    df_island = add_rolling_features(df_island, target_col, windows=ROLLING_WINDOWS)
     df_island = add_yoy_growth(df_island, target_col)
     if exog_col and exog_col in df_island.columns:
-        df_island = add_lag_features(df_island, exog_col, lags=EXOG_LAGS)
-        df_island = add_rolling_features(df_island, exog_col, windows=EXOG_ROLLING)
+        df_island = add_lag_features(df_island, exog_col, lags=LAGS)
+        df_island = add_rolling_features(df_island, exog_col, windows=ROLLING_WINDOWS)
     return df_island
 
 
@@ -111,14 +131,7 @@ def build_features(
     target_col: str,
     exog_col: str | None = None,
 ) -> pd.DataFrame:
-    """Aplica el pipeline isla por isla, para no mezclar rezagos entre series distintas.
-
-    Se evita `groupby(...).apply(...)` a propósito: desde pandas 2.2 (y ya por
-    defecto en pandas 3.0) la columna de agrupación se excluye del grupo que
-    recibe la función salvo que se pase `include_groups=True`, lo que hacía
-    desaparecer silenciosamente la columna `isla` del resultado final. Un
-    `groupby` + `concat` explícito no depende de ese comportamiento.
-    """
+    """Aplica el pipeline isla por isla, para no mezclar rezagos entre series distintas."""
     return pd.concat(
         [
             build_features_for_island(grupo, target_col, exog_col=exog_col)
@@ -130,7 +143,7 @@ def build_features(
 
 def warmup_columns(target_col: str, exog_col: str | None = None) -> list[str]:
     """Columnas cuyo NaN inicial delimita el warm-up (lags + rolling)."""
-    cols = [c for c in _base_feature_names(target_col) if "lag_" in c or "rolling_" in c]
+    cols = _lag_rolling_feature_names(target_col)
     if exog_col:
         cols.extend(exog_feature_names(exog_col))
     return cols

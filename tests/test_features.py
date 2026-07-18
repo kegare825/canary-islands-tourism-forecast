@@ -8,6 +8,7 @@ from src.features import (
     add_calendar_features,
     add_lag_features,
     add_rolling_features,
+    add_rolling_std_features,
     add_yoy_growth,
     build_features,
     build_features_for_island,
@@ -45,6 +46,18 @@ def test_add_rolling_features_excludes_current_month():
     # los DOS meses anteriores (1, 2), no incluir el 3 -> evita fuga de futuro.
     df = add_rolling_features(_series(4), target_col="valor", windows=(2,))
     assert df["valor_rolling_mean_2"].iloc[2] == pytest.approx(1.5)
+
+
+def test_add_rolling_std_excludes_current_month():
+    df = add_rolling_std_features(_series(4), target_col="valor", windows=(2,))
+    # pandas std (ddof=1) de [1, 2] = sqrt(0.5)
+    assert df["valor_rolling_std_2"].iloc[2] == pytest.approx(0.70710678, rel=1e-4)
+
+
+def test_lag_6_generated():
+    df = add_lag_features(_series(8), target_col="valor", lags=(6,))
+    assert pd.isna(df["valor_lag_6"].iloc[5])
+    assert df["valor_lag_6"].iloc[6] == pytest.approx(1.0)
 
 
 def test_add_yoy_growth_computes_interannual_change():
@@ -108,6 +121,8 @@ def test_exog_features_generated_when_column_present():
     for col in feature_columns("valor", exog_col="turistas"):
         assert col in generated.columns
     assert "turistas_lag_12" in generated.columns
+    assert "turistas_lag_6" in generated.columns
+    assert "turistas_rolling_std_3" in generated.columns
     assert generated["turistas_rolling_mean_3"].iloc[3] == pytest.approx(
         df["turistas"].iloc[0:3].mean()
     )

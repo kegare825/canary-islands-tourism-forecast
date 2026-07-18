@@ -8,6 +8,7 @@ from src.model import (
     evaluate_forecast,
     expanding_window_splits,
     fit_lightgbm,
+    fit_sarima,
     forecast_recursive_lightgbm,
     interval_coverage,
     is_covid_period,
@@ -111,3 +112,19 @@ def test_fit_lightgbm_and_forecast_recursive_smoke():
     # El pronóstico debe estar en un orden de magnitud razonable frente al histórico,
     # no en valores absurdos (asegura que las features recursivas no se rompieron).
     assert forecast.between(0, history["revpar_eur"].max() * 3).all()
+
+
+def test_fit_sarimax_with_exog_smoke():
+    n = 48
+    fechas = pd.date_range("2020-01-01", periods=n, freq="MS")
+    y = pd.Series(np.linspace(50, 80, n), index=fechas, name="revpar_eur")
+    exog = pd.DataFrame(
+        {
+            "turistas_lag_1": np.linspace(1000, 2000, n),
+            "turistas_lag_12": np.linspace(900, 1900, n),
+        },
+        index=fechas,
+    )
+    fitted = fit_sarima(y, exog=exog)
+    fc = fitted.get_forecast(steps=3, exog=exog.iloc[-3:])
+    assert len(fc.predicted_mean) == 3

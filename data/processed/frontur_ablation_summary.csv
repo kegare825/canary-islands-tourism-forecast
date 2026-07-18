@@ -1,0 +1,6 @@
+model,mae,rmse,mape,mape_ex_covid,interval_coverage
+lightgbm,8.3552,9.3792,0.1811,0.1352,
+lightgbm_exog,8.6384,9.6635,0.1811,0.1394,
+naive_estacional,12.6263,13.6505,0.2983,0.17,
+sarima,8.0844,8.9933,0.1832,0.1321,0.8506
+sarimax_exog,9.4496,10.7676,0.1916,0.1381,0.8482
