@@ -1,12 +1,4 @@
-# King Crimson ⏳
-
-> King Crimson, el Stand de Diavolo, borra un tramo de tiempo entre una acción y su
-> resultado — así "ya sabe" cómo termina algo antes de que pase. Este proyecto hace lo
-> mismo con la demanda turística: se adelanta al resultado (la ocupación/RevPAR del mes
-> que viene) antes de que llegue.
-
-*(Nombre cambiado desde la versión inicial "Weather Report" — ya en uso en otro
-repositorio del autor para predicción meteorológica real, para evitar confusión.)*
+# Canary Islands tourism forecast
 
 Proyecto de Data Science de forecasting de series temporales: pernoctaciones/ocupación
 turística por isla, usando **datos abiertos oficiales** (ISTAC + INE), no un dataset de
