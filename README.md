@@ -23,8 +23,8 @@ y qué se encontró en `docs/ROADMAP.md`.
 2. Comparar un baseline de series temporales (naive estacional) contra SARIMA y un modelo
    de gradient boosting con features de calendario y rezagos.
 3. Traducir el pronóstico a **oportunidad de RevPAR** — si se sabe con antelación que
-   viene un mes flojo de demanda, hay margen de reacción en pricing (mismo concepto de
-   ADR × Ocupación que ya se usa en ADS/NDMI).
+   viene un mes flojo de demanda, hay margen de reacción en pricing (el concepto
+   estándar de ADR × Ocupación del revenue management).
 4. Demo interactiva: elegir isla y horizonte, ver el pronóstico con intervalo de confianza.
 
 ## Demo (capturas)
