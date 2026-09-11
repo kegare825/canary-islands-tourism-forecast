@@ -23,8 +23,8 @@ y qué se encontró en `docs/ROADMAP.md`.
 2. Comparar un baseline de series temporales (naive estacional) contra SARIMA y un modelo
    de gradient boosting con features de calendario y rezagos.
 3. Traducir el pronóstico a **oportunidad de RevPAR** — si se sabe con antelación que
-   viene un mes flojo de demanda, hay margen de reacción en pricing (el concepto
-   estándar de ADR × Ocupación del revenue management).
+   viene un mes flojo de demanda, hay margen de reacción en pricing (RevPAR = ADR ×
+   Ocupación, la métrica estándar del sector hotelero).
 4. Demo interactiva: elegir isla y horizonte, ver el pronóstico con intervalo de confianza.
 
 ## Demo (capturas)
@@ -53,7 +53,7 @@ Post de portfolio (2 min): [`docs/portfolio_post.md`](docs/portfolio_post.md)
 ## Estructura
 
 ```
-king-crimson/
+canary-islands-tourism-forecast/
 ├── data/
 │   ├── raw/                 Descargas originales de ISTAC/INE — gitignored
 │   ├── processed/           Series ya armonizadas a formato largo (fecha, isla, indicador)
@@ -75,7 +75,7 @@ king-crimson/
 ├── docker/
 │   └── Dockerfile             Contenedor opcional solo para la app Streamlit
 ├── scripts/                   Runners reproducibles (notebooks, métricas, figuras)
-├── models/                    Modelos entrenados (uno por isla) + registry.json — gitignored
+├── models/                    Modelos entrenados (uno por isla) + registry.json — versionados para que la demo funcione sin reentrenar
 ├── reports/figures/            Gráficos versionados para README/portfolio
 ├── tests/                      39 tests (business/data/features/model/ine) — no necesitan datos reales
 └── docs/

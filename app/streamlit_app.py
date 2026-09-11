@@ -1,4 +1,4 @@
-"""Demo interactiva de King Crimson.
+"""Demo interactiva de Canary Islands Tourism Forecast.
 
 Elige isla + horizonte, carga el modelo real entrenado en
 `notebooks/03_modeling.ipynb` (SARIMA o LightGBM según cuál ganó el
@@ -26,9 +26,9 @@ from src.business import demand_alert_level, revpar_gap_vs_last_year
 from src.data import ISLANDS, load_harmonized_series
 from src.model import forecast_recursive_lightgbm, forecast_sarima_with_intervals
 
-st.set_page_config(page_title="King Crimson", page_icon="⏳")
+st.set_page_config(page_title="Canary Islands Tourism Forecast", page_icon="📈")
 
-st.title("⏳ King Crimson")
+st.title("📈 Canary Islands Tourism Forecast")
 st.caption("Pronóstico de demanda turística por isla + oportunidad de RevPAR")
 
 MODEL_DIR = Path("models")

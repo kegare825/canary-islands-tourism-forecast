@@ -138,7 +138,7 @@ def generate(isla: str = "Gran Canaria", horizonte: int = 3) -> None:
     _sidebar_panel(ax0, isla, model_type, horizonte, str(ultimo_mes), adr, int(round(occ_yp * 100)))
     _forecast_panel(ax1, historial_isla.set_index("fecha")["revpar_eur"].tail(36), forecast, lower, upper, isla)
     _alert_panel(ax2, revpar_obj, ocupacion, opp.gap_eur, yoy, alerta)
-    fig.suptitle("King Crimson — demo interactiva (captura representativa)", fontsize=14, y=0.98)
+    fig.suptitle("Canary Islands Tourism Forecast — demo interactiva (captura representativa)", fontsize=14, y=0.98)
     fig.savefig(DEMO_DIR / "00_demo_composite.png", dpi=130, bbox_inches="tight", facecolor="white")
     plt.close(fig)
 

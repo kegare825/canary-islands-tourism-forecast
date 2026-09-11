@@ -24,7 +24,7 @@ reports/figures/demo/_tmp_*
 # [x] Descargar series ISTAC y harmonizar en processed/
 # [x] Notebook 02: features + descomposición estacional por isla
 # [x] Notebook 03: SARIMA vs LightGBM con expanding-window CV documentada
-# [x] Notebook 04: informe RevPAR gap vs año anterior (argumento de venta ADS)
+# [x] Notebook 04: informe RevPAR gap vs año anterior (traducción a € para revenue)
 # [x] Streamlit con forecast real por isla
 # [x] Capturas demo + figuras versionadas en reports/figures/
 # [x] Makefile, Docker app, post portfolio, MAPE ex-COVID, contraste INE

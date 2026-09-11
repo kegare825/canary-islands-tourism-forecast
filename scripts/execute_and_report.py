@@ -130,7 +130,7 @@ def main() -> None:
         execute_notebook(nb)
 
     parts = [
-        "# Resultados de ejecución — King Crimson",
+        "# Resultados de ejecución — Canary Islands Tourism Forecast",
         "",
         f"Generado: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
         "",

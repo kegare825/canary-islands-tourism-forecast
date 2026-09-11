@@ -31,10 +31,10 @@ metrics:
 	$(PYTHON) scripts/compute_backtest_summary.py
 
 docker-build:
-	docker build -t king-crimson-app -f docker/Dockerfile .
+	docker build -t canary-islands-tourism-forecast -f docker/Dockerfile .
 
 docker-run:
-	docker run --rm -p 8501:8501 -v $(PWD)/models:/app/models:ro -v $(PWD)/data/processed:/app/data/processed:ro king-crimson-app
+	docker run --rm -p 8501:8501 -v $(PWD)/models:/app/models:ro -v $(PWD)/data/processed:/app/data/processed:ro canary-islands-tourism-forecast
 
 clean:
 	find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true

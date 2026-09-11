@@ -1,4 +1,4 @@
-# Resultados de ejecución — King Crimson
+# Resultados de ejecución — Canary Islands Tourism Forecast
 
 Generado: 2026-07-17 18:28 UTC
 
@@ -480,92 +480,14 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-  warnings.warn("Maximum Likelihood optimization failed to "
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -574,8 +496,62 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -584,114 +560,105 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -700,8 +667,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -710,8 +676,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -720,8 +685,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -730,8 +694,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -740,8 +703,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -750,8 +712,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -760,8 +721,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -770,8 +730,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -780,8 +739,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -790,8 +748,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -800,8 +757,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -810,8 +766,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -820,8 +775,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -830,8 +784,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -840,8 +793,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -850,8 +802,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -860,8 +811,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -870,8 +820,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -881,26 +830,22 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -909,212 +854,179 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1123,8 +1035,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1133,8 +1044,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1143,8 +1053,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -1155,8 +1064,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1165,8 +1073,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -1177,8 +1084,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1187,8 +1093,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1197,8 +1102,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1207,8 +1111,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1217,8 +1120,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1227,8 +1129,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1237,8 +1138,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1247,8 +1147,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1257,8 +1156,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1268,206 +1166,173 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1476,26 +1341,14 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1504,8 +1357,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1514,8 +1366,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1524,8 +1375,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1534,8 +1384,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1544,8 +1393,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1554,8 +1402,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1564,8 +1411,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1574,8 +1420,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1584,8 +1429,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1594,8 +1438,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1604,8 +1447,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1614,8 +1456,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1624,16 +1465,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1642,8 +1474,23 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
@@ -1651,42 +1498,36 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -1695,160 +1536,134 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1857,26 +1672,14 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1885,8 +1688,16 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -1897,8 +1708,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -1909,8 +1719,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -1921,8 +1730,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1931,8 +1739,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1941,8 +1748,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1951,8 +1757,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1961,8 +1766,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1971,8 +1775,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -1981,8 +1784,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -1993,8 +1795,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -2005,8 +1806,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -2017,8 +1817,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -2029,8 +1828,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -2041,8 +1839,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -2053,8 +1850,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2064,118 +1860,99 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
@@ -2184,106 +1961,90 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2292,8 +2053,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2302,8 +2062,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2312,8 +2071,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2322,8 +2080,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2332,42 +2089,28 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2376,8 +2119,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2386,8 +2128,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2396,8 +2137,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2406,8 +2146,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2416,8 +2155,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2426,8 +2164,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2436,8 +2173,16 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2447,214 +2192,180 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2663,34 +2374,21 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2699,8 +2397,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2709,8 +2406,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2719,8 +2415,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2729,16 +2424,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2747,8 +2433,14 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2757,8 +2449,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2767,8 +2458,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2777,8 +2467,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2787,8 +2476,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2797,16 +2485,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -2815,8 +2494,23 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
@@ -2824,222 +2518,187 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
   warnings.warn("Maximum Likelihood optimization failed to "
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3048,8 +2707,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3058,26 +2716,14 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-```
-```
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3086,8 +2732,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3096,8 +2741,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3106,8 +2750,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3116,8 +2759,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3126,8 +2768,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3136,8 +2777,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3146,8 +2786,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3156,8 +2795,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3166,8 +2804,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3176,8 +2813,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3186,8 +2822,7 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3196,8 +2831,16 @@ print(f"\nTotal filas fold x modelo: {len(results)}")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
+```
+```
+.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+```
+```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
@@ -3332,22 +2975,19 @@ print("\nGuardado models/registry.json")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 `El Hierro: sarima entrenado con 190 meses -> models/el_hierro_sarima.pkl`
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 `Fuerteventura: sarima entrenado con 190 meses -> models/fuerteventura_sarima.pkl`
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 `Gran Canaria: sarima entrenado con 190 meses -> models/gran_canaria_sarima.pkl`
 `La Gomera: lightgbm entrenado con 190 meses -> models/la_gomera_lightgbm.pkl`
@@ -3355,15 +2995,13 @@ print("\nGuardado models/registry.json")
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 `Lanzarote: sarima entrenado con 190 meses -> models/lanzarote_sarima.pkl`
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
   self._init_dates(dates, freq)
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
-  self._init_dates(dates, freq)
+  (… mensaje repetido 2 veces)
 ```
 ```
 Tenerife: sarima entrenado con 190 meses -> models/tenerife_sarima.pkl
@@ -3412,14 +3050,7 @@ Todos los modelos cargan y pronostican sin errores.
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
+  (… mensaje repetido 5 veces)
 ```
 
 ---
@@ -3505,8 +3136,7 @@ informe
   return get_prediction_index(
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
   return get_prediction_index(
-.venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
-  return get_prediction_index(
+  (… mensaje repetido 2 veces)
 ```
 ```
 .venv/lib/python3.14/site-packages/statsmodels/tsa/base/tsa_model.py:837: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.

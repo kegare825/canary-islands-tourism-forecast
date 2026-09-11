@@ -1,6 +1,6 @@
-# Roadmap — King Crimson
+# Roadmap — Canary Islands Tourism Forecast
 
-A diferencia de `bites-the-dust`, aquí el día 0-1 fue más largo porque hubo que
+Aquí el día 0-1 fue más largo de lo habitual porque hubo que
 descubrir y armonizar el dato real (no es un CSV limpio de Kaggle). El resto
 del pipeline corre en un venv normal, sin Docker ni Spark.
 

@@ -13,7 +13,7 @@ necesidad de credenciales, vía su API de datos abiertos (`datos.canarias.es`).
 ### Cubo `C00065A_000003` — Tarifa media diaria (ADR), RevPAR, ingresos y empleo
 Mensual y anual desde 2009, por islas y municipios de Canarias, desagregado por
 categoría de establecimiento. Es el más valioso de los tres porque ya trae ADR y RevPAR
-calculados — listos para usar sin cálculo adicional.
+calculados, las dos métricas de referencia en revenue management hotelero.
 
 ```
 https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00065A_000003/1.60.csv

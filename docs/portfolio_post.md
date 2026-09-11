@@ -1,4 +1,4 @@
-# King Crimson — post de portfolio (2 minutos de lectura)
+# Canary Islands Tourism Forecast — post de portfolio (2 minutos de lectura)
 
 **TL;DR:** Pronostico demanda turística mensual por isla en Canarias con datos abiertos oficiales (ISTAC), comparo naive estacional vs SARIMA vs LightGBM con backtesting honesto (357 folds), y traduzco el resultado a euros de oportunidad RevPAR para equipos de revenue.
 
